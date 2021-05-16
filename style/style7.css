@@ -1,0 +1,10 @@
+.form {
+    display: flex;
+    margin-top:10px;
+  }
+  
+  .form__field {
+     flex: 1;
+  }
+  
+  

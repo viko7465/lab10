@@ -1,0 +1,12 @@
+.cards {
+    min-height: 100vh;
+    display: flex;
+       flex-wrap: wrap;
+       align-items: top;
+    justify-content: left;
+ }
+ 
+ .card {
+    flex: 0 0 250px;
+ }
+ 

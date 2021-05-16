@@ -1,0 +1,17 @@
+.row {
+    display: flex;
+ }
+ 
+ .row_cell {
+    flex: 1;
+ }
+ 
+ .row_cell--top {
+   align-self: flex-start;
+ }
+ 
+ .row_cell--bottom {
+   align-self: flex-end;
+ }
+ 
+ 

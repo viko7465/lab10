@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+ }
+ 
+ header, footer{
+     background-color: #888;
+     height: 20vh;
+ }
+ 
+ main{
+     height: 60vh;
+     flex:1;
+     display: flex;
+ }
+ 
+ nav, aside{
+     width: 20vw;
+ }
+ 
+ nav {
+     background-color: #999;
+       order: -1;
+ }
+ 
+ article {
+    flex: 1;
+ }
+ 

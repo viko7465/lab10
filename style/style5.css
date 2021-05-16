@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.app {
+    background-color: #e08e23d0;
+    width: 640px;
+}
+header, footer {
+    height: 50px;
+    background-color: #b8751f;
+    display: flex;
+    align-items: center; 
+}
+main {
+    flex: 1;
+    margin: 50px 80px 50px 80px;
+    max-width: 400px;
+}
+.media {
+    display: flex;
+    align-items: flex-start;
+    max-width: 640px;
+    margin: 20px 10px 20px 10px;
+}
+.media-body {
+    max-width: 400px;
+    flex: 1;
+    margin: 5px 5px 5px 0px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: #ec790ed8;
+}
+.media-object {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+.h-button-1 {
+    margin: 10px 10px 10px 30px;
+}
+.h-button-2 {
+    margin: 10px 30px 10px 10px;
+}
+h1 {
+    margin-left: auto;
+    margin-right: auto;
+}

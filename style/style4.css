@@ -1,0 +1,16 @@
+body {
+    display: flex;
+    height: 100vh;
+  }
+  
+  aside {
+      background-color: #777;
+     width: 20vw;
+  }
+  
+  main {
+      background-color: #999;
+    flex: 1;
+  }
+  
+  

@@ -1,0 +1,15 @@
+.media {
+	width: 30vw;
+	background-color: #777;
+   display: flex;
+   align-items: flex-start;
+}
+
+.media-body {
+   flex: 1;
+}
+
+img{
+	width: 20%;
+	height: 10%;
+}
